@@ -86,16 +86,16 @@ ai_text_similarity_service/
 
 2. Production Deployment Options
    
-  a. Gunicorn with Nginx
-    Set up Nginx as a reverse proxy to handle client requests and serve static files efficiently.
-    This setup enhances performance and provides better handling of concurrent requests.
-    
-  b. Cloud Deployment with Docker
-    Push your Docker image to a container registry like Docker Hub or AWS ECR.
-    Deploy using orchestration tools such as:
-      AWS ECS/Fargate: For serverless container deployment.
-      Kubernetes: For managing containerized applications at scale.
-      Azure Container Instances: For quick deployment without managing servers.
+       a. Gunicorn with Nginx
+         Set up Nginx as a reverse proxy to handle client requests and serve static files efficiently.
+         This setup enhances performance and provides better handling of concurrent requests.
+         
+       b. Cloud Deployment with Docker
+         Push your Docker image to a container registry like Docker Hub or AWS ECR.
+         Deploy using orchestration tools such as:
+           AWS ECS/Fargate: For serverless container deployment.
+           Kubernetes: For managing containerized applications at scale.
+           Azure Container Instances: For quick deployment without managing servers.
     
   These platforms offer scalability, load balancing, and easy management of your application.
 
