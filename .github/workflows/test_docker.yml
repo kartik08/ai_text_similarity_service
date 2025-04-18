@@ -41,7 +41,7 @@ jobs:
           python -m unittest discover -s tests -v | tee test-results/test_output.log
 
       - name: Upload test log artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: test-logs
           path: test-results/test_output.log
