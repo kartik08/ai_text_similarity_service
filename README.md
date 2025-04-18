@@ -115,14 +115,8 @@ ai_text_similarity_service/
 
 4. Monitoring and Logging
   Set up monitoring tools (e.g., Prometheus, Grafana) to track application performance.
-  Implement centralized logging (e.g., ELK Stack) to collect and analyze logs from all instances.
-  Monitoring helps in proactive issue detection and maintaining application health.
-
-5. Security and Configuration Management
-  Use environment variables to manage configuration and sensitive information.
-  Implement HTTPS to secure data in transit.
-  Regularly update dependencies to patch security vulnerabilities.  
-  Proper security measures protect your application and user data.
+  Implement centralised logging (e.g., ELK Stack) to collect and analyse logs from all instances.
+  Monitoring helps detect proactive issues and maintain application health.
 
 By following these deployment and scaling strategies, your Flask-based AI Text Similarity Service will be well-equipped to handle production workloads efficiently and securely.
 
