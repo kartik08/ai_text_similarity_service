@@ -89,6 +89,7 @@ ai_text_similarity_service/
   a. Gunicorn with Nginx
     Set up Nginx as a reverse proxy to handle client requests and serve static files efficiently.
     This setup enhances performance and provides better handling of concurrent requests.
+    
   b. Cloud Deployment with Docker
     Push your Docker image to a container registry like Docker Hub or AWS ECR.
     Deploy using orchestration tools such as:
